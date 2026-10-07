@@ -1,0 +1,4 @@
+interface:
+  display_name: "Floss"
+  short_description: "Keep Git work branched, reviewed, committed, pushed, and merged"
+  default_prompt: "Apply Floss git hygiene to this change and finish with a pushed reviewable branch or merged PR."
