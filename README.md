@@ -36,6 +36,16 @@ where to install Floss. Separate backend-specific commands are not required.
 The planned corpus, scoring gate, telemetry, and collection status are in
 [benchmarks/README.md](./benchmarks/README.md).
 
+**Field record** (observational, not a benchmark)
+
+From Current's private repository, July 20 to October 4, 2026: all 77 changes
+that reached `main` landed as merge commits from pull requests, with no direct
+pushes and no force-pushes to `main`. Of the 17 pull requests closed without
+merging in that repository, 16 still keep their history on a branch or archive
+tag. This says nothing yet about review-readiness on the first handoff, which
+the benchmark will measure. These are field observations from private team
+records, not a controlled with/without comparison.
+
 ## Before And After
 
 Without a handoff discipline:
