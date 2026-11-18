@@ -76,7 +76,8 @@ npx skills add subcreation/floss -g
 
 The installer requires [Node.js](https://nodejs.org/en/download) 22.20 or newer.
 Choose the agents you use; Floss will be available across their projects.
-Your agent should already be able to use Git and push to your project’s remote.
+Your agent should already be able to use Git, push branches to your project’s
+remote, and open draft pull requests for review.
 
 Ask your agent to use Floss on your next task. Its report should tell you
 what it committed and pushed.
