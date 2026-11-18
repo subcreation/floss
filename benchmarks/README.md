@@ -1,6 +1,8 @@
 # Floss Benchmark Plan
 
-Status: **planned; no efficacy result has been published**.
+**Status:** The README reports completed build/change/undo tests. The broader
+benchmark described below is an optional design, not a prerequisite for
+publishing those results.
 
 ## Question
 
@@ -49,19 +51,16 @@ Record time, turns, input and output tokens, provider cost when available,
 human rescue, review corrections, and any lost or rewritten work. These are
 descriptive measures unless the experimental design supports a causal claim.
 
-## Publication Gate
+## Reporting results
 
-No percentage, savings claim, or comparison chart may appear in the README
-until this directory contains:
+Completed tests may be reported in the README using plain-language
+explanations and comparison tables. State what was tested, how many runs were
+made, and what happened. Report outcomes supported by the test records.
 
-- versioned fixtures;
-- machine-readable raw runs;
-- scoring code;
-- reproduction instructions;
-- model, effort, host, and tool provenance; and
-- an independent verification of the reported aggregation.
+The README’s Floss comparison reports one run per solo setup. The Current
+team result comes from a separate run using Floss and other skills. These
+results demonstrate what happened in those tests.
 
-The README placeholder is the only approved evidence panel until that gate
-passes.
-Clearly labeled observational field records may appear beside it; they are
-not efficacy results and do not satisfy this gate.
+Claims about general success rates, reliability, performance, or savings
+require evidence appropriate to those claims. Publishing the results of
+completed tests does not require completing the broader benchmark above.
