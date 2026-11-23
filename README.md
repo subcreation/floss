@@ -108,3 +108,7 @@ stretches—giving you time back.
 You provide the context, requirements, and authority. The team follows
 predefined skills and workflows, pairing different models to build and check
 each other’s work, so it can carry the job through while you step away.
+
+Current isn’t just for code. It’s already running real business work for a
+paying client outside software, with a person signing off on what goes out.
+If you can describe the work, a Current team can learn to carry it.
