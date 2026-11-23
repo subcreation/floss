@@ -24,6 +24,11 @@ Floss is a skill your AI agent follows: check the work, commit the version
 that passes, and push it before moving on. Saving the work is part of doing
 the work.
 
+That’s more than a one-line “use Git” prompt. With Floss, your agent starts
+each task on its own branch, leaves changes it didn’t make untouched, and
+checks everything it’s handing off before it pushes and opens a draft pull
+request for you to review.
+
 Your work and its history are saved remotely, so you can pick up on another
 machine if yours fails.
 
@@ -41,7 +46,7 @@ while keeping the changed version too.
 
 <table>
   <thead>
-    <tr><th align="left">Agent</th><th>Total commits</th><th>Could return to a saved version?</th></tr>
+    <tr><th align="left">Agent</th><th>Commits<br><sub>work saved and pushed without being asked</sub></th><th>Could return to a saved version?</th></tr>
   </thead>
   <tbody>
     <tr><th colspan="3" align="center">🚫 Without Floss</th></tr>
@@ -54,14 +59,18 @@ while keeping the changed version too.
     <tr><td>Claude Code</td><td align="center">2</td><td align="center">✅ Yes</td></tr>
     <tr><td>Codex</td><td align="center">3</td><td align="center">✅ Yes</td></tr>
     <tr><td>Grok</td><td align="center">3</td><td align="center">✅ Yes</td></tr>
-    <tr><td><strong><a href="#meet-current">Current</a> team, with Floss and other skills</strong></td><td align="center"><strong>30</strong></td><td align="center">✅ <strong>Both versions kept</strong></td></tr>
+  </tbody>
+  <tbody>
+    <tr><th colspan="3" align="center">🌊 Floss + Current</th></tr>
+    <tr><td colspan="3" align="center"><em><a href="#meet-current">Current</a> is Subcreation’s open-source multi-agent harness (coming soon): it runs a team of AI agents on your project, with Floss built in.</em></td></tr>
+    <tr><td><strong>Current, running Floss and other skills</strong></td><td align="center"><strong>30</strong></td><td align="center">✅ <strong>Both versions kept</strong></td></tr>
   </tbody>
 </table>
 
-*Each solo setup ran once. The Current team was a separate run. Counts cover
+*Each solo setup ran once. Current was a separate run. Counts cover
 the build, change, and undo.*
 
-The Current team also returned every file to the original build and kept the
+Current also returned every file to the original build and kept the
 changed version in history.
 
 ## Add Floss to your agent
