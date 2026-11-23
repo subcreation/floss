@@ -63,7 +63,7 @@ while keeping the changed version too.
   <tbody>
     <tr><th colspan="3" align="center">🌊 Floss + Current</th></tr>
     <tr><td colspan="3" align="center"><em><a href="#meet-current">Current</a> is Subcreation’s open-source multi-agent harness (coming soon): it runs a team of AI agents on your project, with Floss built in.</em></td></tr>
-    <tr><td><strong>Current, running Floss and other skills</strong></td><td align="center"><strong>30</strong></td><td align="center">✅ <strong>Both versions kept</strong></td></tr>
+    <tr><td><strong>Current, running Floss and other skills</strong></td><td align="center"><strong>30</strong></td><td align="center">✅ <strong>Yes</strong> + team review</td></tr>
   </tbody>
 </table>
 
