@@ -24,10 +24,10 @@ Floss is a skill your AI agent follows: check the work, commit the version
 that passes, and push it before moving on. Saving the work is part of doing
 the work.
 
-That’s more than a one-line “use Git” prompt. With Floss, your agent starts
-each task on its own branch, leaves changes it didn’t make untouched, and
-checks everything it’s handing off before it pushes and opens a draft pull
-request for you to review.
+That’s more than a one-line “use Git” prompt. With Floss, your agent uses
+the branch that belongs to the work, leaves unrelated changes untouched,
+and checks everything it’s handing off before pushing and opening or
+updating a draft pull request for review.
 
 Your work and its history are saved remotely, so you can pick up on another
 machine if yours fails.
