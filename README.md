@@ -109,5 +109,6 @@ You provide the context, requirements, and authority. The team follows
 predefined skills and workflows, pairing different models to build and check
 each other’s work, so it can carry the job through while you step away.
 
-Current’s teams already handle paid business work beyond software development,
-with a person reviewing and approving the results before delivery.
+Current isn’t just for code. Its teams already do real paid work for a business
+outside tech, running long jobs on their own that only need a person to check
+the finished result.
